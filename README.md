@@ -1,4 +1,4 @@
-# Burger-app-basic
+# Burger App 
 
 ### How to use the downloaded files
 
