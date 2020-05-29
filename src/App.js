@@ -1,18 +1,16 @@
-import React, { Component } from 'react';
+// react
+import React from 'react';
 
-import Layout from './components/Layout/Layout';
-import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
+// css
+import './App.css';
 
-class App extends Component {
-  render () {
-    return (
-      <div>
-        <Layout>
-          <BurgerBuilder />
-        </Layout>
-      </div>
-    );
-  }
+
+const AppRouter = () => {
+  return (
+    <div className="container">
+      <h1>Hello World !</h1>
+    </div>
+  );
 }
 
-export default App;
+export default AppRouter;
